@@ -1,0 +1,482 @@
+2026-08-05 09:40:30,354 - INFO - schema is loading...
+2026-08-05 12:16:33,347 - INFO - background task for uploaded_csv/employees.csv running..
+2026-08-05 12:17:37,479 - INFO - basic summary for 1b3601cc-e95a-42a4-80db-18689579495c
+2026-08-05 12:43:30,193 - WARNING - test.txt - unsorported file format
+2026-08-05 12:43:30,197 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 12:53:23,270 - WARNING - test.txt - unsorported file format
+2026-08-05 12:53:23,270 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 12:54:46,431 - WARNING - test.txt - unsorported file format
+2026-08-05 12:54:46,435 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 12:54:46,441 - INFO - test.csv uploaded
+2026-08-05 12:54:46,453 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:06:49,800 - WARNING - file not found
+2026-08-05 13:06:49,808 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:06:49,817 - WARNING - file not found
+2026-08-05 13:06:49,817 - INFO - HTTP Request: GET http://testserver/schema?file_name=valid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:06:50,362 - WARNING - test.txt - unsorported file format
+2026-08-05 13:06:50,362 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:06:50,389 - INFO - test.csv uploaded
+2026-08-05 13:06:50,400 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:08:22,613 - WARNING - file not found
+2026-08-05 13:08:22,630 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:08:22,630 - WARNING - file not found
+2026-08-05 13:08:22,630 - INFO - HTTP Request: GET http://testserver/schema?file_name=employees.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:08:23,230 - WARNING - test.txt - unsorported file format
+2026-08-05 13:08:23,230 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:08:23,250 - INFO - test.csv uploaded
+2026-08-05 13:08:23,255 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:09:47,509 - WARNING - file not found
+2026-08-05 13:09:47,518 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:09:47,528 - WARNING - file not found
+2026-08-05 13:09:47,529 - INFO - HTTP Request: GET http://testserver/schema?file_name=employees.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:09:48,078 - WARNING - test.txt - unsorported file format
+2026-08-05 13:09:48,078 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:09:48,097 - INFO - test.csv uploaded
+2026-08-05 13:09:48,105 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:11:10,638 - WARNING - file not found
+2026-08-05 13:11:10,647 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:11:10,755 - INFO - schema is loading...
+2026-08-05 13:11:10,755 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:11:11,311 - WARNING - test.txt - unsorported file format
+2026-08-05 13:11:11,311 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:11:11,325 - INFO - test.csv uploaded
+2026-08-05 13:11:11,325 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:11:48,096 - WARNING - file not found
+2026-08-05 13:11:48,096 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:11:48,115 - INFO - schema is loading...
+2026-08-05 13:11:48,123 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:11:48,133 - WARNING - test.txt - unsorported file format
+2026-08-05 13:11:48,133 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:11:48,151 - INFO - test.csv uploaded
+2026-08-05 13:11:48,159 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:13:22,875 - WARNING - file not found
+2026-08-05 13:13:22,883 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:13:22,884 - INFO - schema is loading...
+2026-08-05 13:13:22,899 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:13:23,436 - WARNING - test.txt - unsorported file format
+2026-08-05 13:13:23,436 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:13:23,456 - INFO - test.csv uploaded
+2026-08-05 13:13:23,464 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:13:50,649 - WARNING - file not found
+2026-08-05 13:13:50,649 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:13:50,665 - INFO - schema is loading...
+2026-08-05 13:13:50,665 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:13:50,690 - WARNING - test.txt - unsorported file format
+2026-08-05 13:13:50,694 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:13:50,702 - INFO - test.csv uploaded
+2026-08-05 13:13:50,711 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:35:13,677 - WARNING - file not found
+2026-08-05 13:35:13,677 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 13:35:13,693 - WARNING - file not found
+2026-08-05 13:35:13,693 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:35:13,802 - INFO - schema is loading...
+2026-08-05 13:35:13,809 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:35:13,809 - WARNING - test.txt - unsorported file format
+2026-08-05 13:35:13,809 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:35:13,829 - INFO - test.csv uploaded
+2026-08-05 13:35:13,834 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:42:45,789 - WARNING - file not found
+2026-08-05 13:42:45,789 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 13:42:45,811 - INFO - query loading...
+2026-08-05 13:42:47,048 - WARNING - file not found
+2026-08-05 13:42:47,048 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:42:47,072 - INFO - schema is loading...
+2026-08-05 13:42:47,072 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:42:47,088 - WARNING - test.txt - unsorported file format
+2026-08-05 13:42:47,090 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:42:47,090 - INFO - test.csv uploaded
+2026-08-05 13:42:47,109 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:49:31,297 - WARNING - file not found
+2026-08-05 13:49:31,297 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 13:49:31,373 - INFO - query loading...
+2026-08-05 13:49:32,555 - WARNING - file not found
+2026-08-05 13:49:32,555 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:49:32,574 - INFO - schema is loading...
+2026-08-05 13:49:32,578 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:49:32,590 - WARNING - test.txt - unsorported file format
+2026-08-05 13:49:32,590 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:49:32,598 - INFO - test.csv uploaded
+2026-08-05 13:49:32,608 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:50:49,078 - WARNING - file not found
+2026-08-05 13:50:49,078 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 13:50:49,087 - INFO - query loading...
+2026-08-05 13:50:50,176 - WARNING - file not found
+2026-08-05 13:50:50,185 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:50:50,198 - INFO - schema is loading...
+2026-08-05 13:50:50,198 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:50:50,209 - WARNING - test.txt - unsorported file format
+2026-08-05 13:50:50,209 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:50:50,221 - INFO - test.csv uploaded
+2026-08-05 13:50:50,229 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 13:52:33,166 - WARNING - file not found
+2026-08-05 13:52:33,166 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 13:52:33,202 - INFO - query loading...
+2026-08-05 13:52:34,302 - WARNING - file not found
+2026-08-05 13:52:34,302 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 13:52:34,317 - INFO - schema is loading...
+2026-08-05 13:52:34,317 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 13:52:34,331 - WARNING - test.txt - unsorported file format
+2026-08-05 13:52:34,331 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 13:52:34,341 - INFO - test.csv uploaded
+2026-08-05 13:52:34,349 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:00:11,216 - WARNING - file not found
+2026-08-05 14:00:11,216 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:00:11,236 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:00:11,767 - WARNING - file not found
+2026-08-05 14:00:11,767 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:00:11,900 - INFO - schema is loading...
+2026-08-05 14:00:11,900 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:00:11,932 - WARNING - test.txt - unsorported file format
+2026-08-05 14:00:11,939 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:00:11,962 - INFO - test.csv uploaded
+2026-08-05 14:00:11,986 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:00:58,176 - WARNING - file not found
+2026-08-05 14:00:58,176 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:00:58,194 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:00:58,718 - WARNING - file not found
+2026-08-05 14:00:58,734 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:00:58,749 - INFO - schema is loading...
+2026-08-05 14:00:58,749 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:00:58,770 - WARNING - test.txt - unsorported file format
+2026-08-05 14:00:58,770 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:00:58,776 - INFO - test.csv uploaded
+2026-08-05 14:00:58,845 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:05:59,948 - WARNING - file not found
+2026-08-05 14:05:59,948 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:05:59,964 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:05:59,994 - WARNING - file not found
+2026-08-05 14:05:59,996 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:06:00,047 - INFO - schema is loading...
+2026-08-05 14:06:00,047 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:06:00,063 - WARNING - test.txt - unsorported file format
+2026-08-05 14:06:00,063 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:06:00,083 - INFO - test.csv uploaded
+2026-08-05 14:06:00,083 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:23:20,823 - WARNING - file not found
+2026-08-05 14:23:20,828 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:23:20,859 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:23:22,515 - WARNING - file not found
+2026-08-05 14:23:22,515 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:23:22,540 - INFO - schema is loading...
+2026-08-05 14:23:22,540 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:23:22,551 - WARNING - test.txt - unsorported file format
+2026-08-05 14:23:22,551 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:23:22,563 - INFO - test.csv uploaded
+2026-08-05 14:23:22,579 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:25:10,212 - WARNING - file not found
+2026-08-05 14:25:10,223 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:25:10,233 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:25:11,634 - WARNING - file not found
+2026-08-05 14:25:11,634 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:25:11,658 - INFO - schema is loading...
+2026-08-05 14:25:11,665 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:25:11,665 - WARNING - test.txt - unsorported file format
+2026-08-05 14:25:11,665 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:25:11,687 - INFO - test.csv uploaded
+2026-08-05 14:25:11,693 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:26:38,203 - WARNING - file not found
+2026-08-05 14:26:38,203 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:26:38,220 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:26:39,752 - WARNING - file not found
+2026-08-05 14:26:39,752 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:26:39,777 - INFO - schema is loading...
+2026-08-05 14:26:39,777 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:26:39,801 - WARNING - test.txt - unsorported file format
+2026-08-05 14:26:39,811 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:26:39,814 - INFO - test.csv uploaded
+2026-08-05 14:26:39,826 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:33:16,594 - WARNING - file not found
+2026-08-05 14:33:16,602 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:33:16,608 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:33:18,060 - WARNING - file not found
+2026-08-05 14:33:18,060 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:33:18,077 - INFO - schema is loading...
+2026-08-05 14:33:18,077 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:33:18,092 - WARNING - test.txt - unsorported file format
+2026-08-05 14:33:18,092 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:33:18,108 - INFO - test.csv uploaded
+2026-08-05 14:33:18,112 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:34:42,954 - WARNING - file not found
+2026-08-05 14:34:42,954 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:34:42,974 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:34:43,503 - WARNING - file not found
+2026-08-05 14:34:43,503 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:34:43,523 - INFO - schema is loading...
+2026-08-05 14:34:43,538 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:34:43,546 - WARNING - test.txt - unsorported file format
+2026-08-05 14:34:43,546 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:34:43,557 - INFO - test.csv uploaded
+2026-08-05 14:34:43,557 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:36:16,184 - WARNING - file not found
+2026-08-05 14:36:16,184 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:36:16,199 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:36:17,640 - WARNING - file not found
+2026-08-05 14:36:17,640 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:36:17,658 - INFO - schema is loading...
+2026-08-05 14:36:17,658 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:36:17,666 - WARNING - test.txt - unsorported file format
+2026-08-05 14:36:17,666 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:36:17,676 - INFO - test.csv uploaded
+2026-08-05 14:36:17,684 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:38:03,496 - WARNING - file not found
+2026-08-05 14:38:03,496 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:38:03,513 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:38:04,896 - WARNING - file not found
+2026-08-05 14:38:04,911 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:38:04,929 - INFO - schema is loading...
+2026-08-05 14:38:04,933 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:38:04,942 - WARNING - test.txt - unsorported file format
+2026-08-05 14:38:04,942 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:38:05,005 - INFO - test.csv uploaded
+2026-08-05 14:38:05,012 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:40:19,675 - WARNING - file not found
+2026-08-05 14:40:19,675 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:40:19,675 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:40:21,102 - WARNING - file not found
+2026-08-05 14:40:21,102 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:40:21,126 - INFO - schema is loading...
+2026-08-05 14:40:21,126 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:40:21,126 - WARNING - test.txt - unsorported file format
+2026-08-05 14:40:21,126 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:40:21,148 - INFO - test.csv uploaded
+2026-08-05 14:40:21,151 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:40:58,608 - WARNING - file not found
+2026-08-05 14:40:58,608 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:40:58,621 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:41:00,131 - WARNING - file not found
+2026-08-05 14:41:00,131 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:41:00,157 - INFO - schema is loading...
+2026-08-05 14:41:00,157 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:41:00,157 - WARNING - test.txt - unsorported file format
+2026-08-05 14:41:00,157 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:41:00,180 - INFO - test.csv uploaded
+2026-08-05 14:41:00,187 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:41:59,713 - WARNING - file not found
+2026-08-05 14:41:59,713 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:41:59,731 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:41:59,748 - WARNING - file not found
+2026-08-05 14:41:59,748 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:41:59,776 - INFO - schema is loading...
+2026-08-05 14:41:59,780 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:41:59,788 - WARNING - test.txt - unsorported file format
+2026-08-05 14:41:59,788 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:41:59,800 - INFO - test.csv uploaded
+2026-08-05 14:41:59,815 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:46:49,558 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:46:50,108 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:46:50,131 - WARNING - file not found
+2026-08-05 14:46:50,145 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:46:50,173 - INFO - schema is loading...
+2026-08-05 14:46:50,175 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:46:50,191 - WARNING - test.txt - unsorported file format
+2026-08-05 14:46:50,193 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:46:50,206 - INFO - test.csv uploaded
+2026-08-05 14:46:50,214 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:49:19,228 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:49:19,762 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:49:19,777 - WARNING - file not found
+2026-08-05 14:49:19,777 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:49:19,796 - INFO - schema is loading...
+2026-08-05 14:49:19,804 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:49:19,810 - WARNING - test.txt - unsorported file format
+2026-08-05 14:49:19,816 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:49:19,820 - INFO - test.csv uploaded
+2026-08-05 14:49:19,828 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:51:25,288 - WARNING - file not found
+2026-08-05 14:51:25,288 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:51:25,306 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:51:25,314 - WARNING - file not found
+2026-08-05 14:51:25,323 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:51:25,330 - INFO - schema is loading...
+2026-08-05 14:51:25,330 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:51:25,355 - WARNING - test.txt - unsorported file format
+2026-08-05 14:51:25,359 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:51:25,373 - INFO - test.csv uploaded
+2026-08-05 14:51:25,373 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:51:51,436 - WARNING - file not found
+2026-08-05 14:51:51,436 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:51:51,445 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:51:51,454 - WARNING - file not found
+2026-08-05 14:51:51,462 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:51:51,480 - INFO - schema is loading...
+2026-08-05 14:51:51,480 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:51:51,496 - WARNING - test.txt - unsorported file format
+2026-08-05 14:51:51,496 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:51:51,504 - INFO - test.csv uploaded
+2026-08-05 14:51:51,513 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:53:09,709 - WARNING - file not found
+2026-08-05 14:53:09,709 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:53:09,723 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:53:11,259 - WARNING - file not found
+2026-08-05 14:53:11,259 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:53:11,280 - INFO - schema is loading...
+2026-08-05 14:53:11,288 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:53:11,292 - WARNING - test.txt - unsorported file format
+2026-08-05 14:53:11,292 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:53:11,303 - INFO - test.csv uploaded
+2026-08-05 14:53:11,310 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:55:33,104 - WARNING - file not found
+2026-08-05 14:55:33,104 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:55:33,118 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:55:34,719 - WARNING - file not found
+2026-08-05 14:55:34,719 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:55:34,738 - INFO - schema is loading...
+2026-08-05 14:55:34,738 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:55:34,751 - WARNING - test.txt - unsorported file format
+2026-08-05 14:55:34,751 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:55:34,763 - INFO - test.csv uploaded
+2026-08-05 14:55:34,771 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 14:59:06,828 - WARNING - file not found
+2026-08-05 14:59:06,836 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 14:59:06,841 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:59:07,197 - WARNING - column not found
+2026-08-05 14:59:07,208 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 14:59:07,820 - WARNING - file not found
+2026-08-05 14:59:07,820 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 14:59:07,841 - INFO - schema is loading...
+2026-08-05 14:59:07,841 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 14:59:07,858 - WARNING - test.txt - unsorported file format
+2026-08-05 14:59:07,858 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 14:59:07,865 - INFO - test.csv uploaded
+2026-08-05 14:59:07,874 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:00:51,429 - WARNING - file not found
+2026-08-05 15:00:51,429 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:00:51,439 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:00:51,472 - WARNING - column not found
+2026-08-05 15:00:51,472 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:00:52,002 - WARNING - file not found
+2026-08-05 15:00:52,002 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:00:52,021 - INFO - schema is loading...
+2026-08-05 15:00:52,021 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:00:52,021 - WARNING - test.txt - unsorported file format
+2026-08-05 15:00:52,021 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:00:52,046 - INFO - test.csv uploaded
+2026-08-05 15:00:52,057 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:02:01,336 - WARNING - file not found
+2026-08-05 15:02:01,336 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:02:01,352 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:02:01,386 - WARNING - column not found
+2026-08-05 15:02:01,386 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:02:01,966 - WARNING - file not found
+2026-08-05 15:02:01,981 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:02:01,990 - INFO - schema is loading...
+2026-08-05 15:02:01,998 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:02:02,006 - WARNING - test.txt - unsorported file format
+2026-08-05 15:02:02,006 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:02:02,018 - INFO - test.csv uploaded
+2026-08-05 15:02:02,018 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:02:32,642 - WARNING - file not found
+2026-08-05 15:02:32,642 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:02:32,651 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:02:32,676 - WARNING - column not found
+2026-08-05 15:02:32,676 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 400 Bad Request"
+2026-08-05 15:02:33,206 - WARNING - file not found
+2026-08-05 15:02:33,206 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:02:33,225 - INFO - schema is loading...
+2026-08-05 15:02:33,234 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:02:33,234 - WARNING - test.txt - unsorported file format
+2026-08-05 15:02:33,234 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:02:33,252 - INFO - test.csv uploaded
+2026-08-05 15:02:33,252 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:04:08,529 - WARNING - file not found
+2026-08-05 15:04:08,529 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:04:08,529 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:04:08,562 - WARNING - column not found
+2026-08-05 15:04:08,562 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 400 Bad Request"
+2026-08-05 15:04:09,097 - WARNING - file not found
+2026-08-05 15:04:09,097 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:04:09,113 - INFO - schema is loading...
+2026-08-05 15:04:09,113 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:04:09,128 - WARNING - test.txt - unsorported file format
+2026-08-05 15:04:09,128 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:04:09,144 - INFO - test.csv uploaded
+2026-08-05 15:04:09,155 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:04:50,144 - WARNING - file not found
+2026-08-05 15:04:50,144 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:04:50,144 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:04:50,177 - WARNING - column not found
+2026-08-05 15:04:50,177 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 400 Bad Request"
+2026-08-05 15:04:50,177 - WARNING - file not found
+2026-08-05 15:04:50,194 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:04:50,204 - INFO - schema is loading...
+2026-08-05 15:04:50,204 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:04:50,224 - WARNING - test.txt - unsorported file format
+2026-08-05 15:04:50,224 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:04:50,347 - INFO - test.csv uploaded
+2026-08-05 15:04:50,384 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:12:36,958 - WARNING - file not found
+2026-08-05 15:12:36,958 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:12:36,958 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:12:36,991 - WARNING - column not found
+2026-08-05 15:12:36,991 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 400 Bad Request"
+2026-08-05 15:12:37,006 - WARNING - file not found
+2026-08-05 15:12:37,006 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:12:37,026 - INFO - schema is loading...
+2026-08-05 15:12:37,026 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:12:37,034 - WARNING - file not found
+2026-08-05 15:12:37,039 - INFO - HTTP Request: POST http://testserver/summary "HTTP/1.1 404 Not Found"
+2026-08-05 15:12:37,050 - WARNING - test.txt - unsorported file format
+2026-08-05 15:12:37,058 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:12:37,071 - INFO - test.csv uploaded
+2026-08-05 15:12:37,079 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:15:59,649 - WARNING - file not found
+2026-08-05 15:15:59,649 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:15:59,649 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:15:59,680 - WARNING - column not found
+2026-08-05 15:15:59,680 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 400 Bad Request"
+2026-08-05 15:15:59,697 - WARNING - file not found
+2026-08-05 15:15:59,700 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:15:59,710 - INFO - schema is loading...
+2026-08-05 15:15:59,716 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:15:59,716 - WARNING - file not found
+2026-08-05 15:15:59,716 - INFO - HTTP Request: POST http://testserver/summary "HTTP/1.1 404 Not Found"
+2026-08-05 15:15:59,730 - INFO - background task for uploaded_csv/employees.csv running..
+2026-08-05 15:15:59,895 - INFO - HTTP Request: POST http://testserver/summary "HTTP/1.1 200 OK"
+2026-08-05 15:15:59,929 - WARNING - test.txt - unsorported file format
+2026-08-05 15:15:59,937 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:15:59,956 - INFO - test.csv uploaded
+2026-08-05 15:15:59,965 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:17:46,951 - WARNING - file not found
+2026-08-05 15:17:46,959 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 404 Not Found"
+2026-08-05 15:17:46,968 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 422 Unprocessable Entity"
+2026-08-05 15:17:47,034 - WARNING - column not found
+2026-08-05 15:17:47,034 - INFO - HTTP Request: POST http://testserver/query "HTTP/1.1 400 Bad Request"
+2026-08-05 15:17:47,049 - WARNING - file not found
+2026-08-05 15:17:47,064 - INFO - HTTP Request: GET http://testserver/schema?file_name=invalid_file.csv "HTTP/1.1 404 Not Found"
+2026-08-05 15:17:47,093 - INFO - schema is loading...
+2026-08-05 15:17:47,109 - INFO - HTTP Request: GET http://testserver/schema?file_name=uploaded_csv%2Femployees.csv "HTTP/1.1 200 OK"
+2026-08-05 15:17:47,126 - WARNING - file not found
+2026-08-05 15:17:47,132 - INFO - HTTP Request: POST http://testserver/summary "HTTP/1.1 404 Not Found"
+2026-08-05 15:17:47,145 - INFO - background task for uploaded_csv/employees.csv running..
+2026-08-05 15:17:47,179 - INFO - HTTP Request: POST http://testserver/summary "HTTP/1.1 200 OK"
+2026-08-05 15:17:47,212 - WARNING - test.txt - unsorported file format
+2026-08-05 15:17:47,212 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 400 Bad Request"
+2026-08-05 15:17:47,226 - INFO - test.csv uploaded
+2026-08-05 15:17:47,238 - INFO - HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+2026-08-05 15:51:23,576 - WARNING - column not found
+2026-08-05 15:52:44,072 - WARNING - column not found
+2026-08-05 15:56:29,174 - WARNING - invalid operator
+2026-08-05 15:58:58,820 - WARNING - invalid operator
+2026-08-05 16:00:42,489 - INFO - query loading...
+2026-08-05 16:01:59,590 - INFO - query loading...
+2026-08-05 16:03:22,535 - INFO - query loading...
+2026-08-05 16:04:33,001 - WARNING - file not found
+2026-08-05 16:05:24,712 - INFO - query loading...
+2026-08-05 16:10:58,682 - INFO - query loading...
+2026-08-05 16:19:01,106 - WARNING - column not found
+2026-08-05 16:19:27,396 - WARNING - column not found
+2026-08-05 16:23:20,340 - WARNING - invalid operator
+2026-08-05 16:24:02,789 - WARNING - invalid operator
+2026-08-05 16:25:13,712 - WARNING - file not found
+2026-08-05 16:25:58,835 - INFO - query loading...
+2026-08-05 16:29:48,408 - INFO - query loading...
+2026-08-05 16:33:42,794 - INFO - background task for uploaded_csv/sales.csv running..
+2026-08-13 11:41:47,622 - INFO - sales.csv uploaded
+2026-08-13 11:42:04,860 - INFO - sales.csv uploaded
+2026-08-13 12:42:52,019 - INFO - essential-health-technologies-indicators-for-nigeria-41.csv uploaded
+2026-08-15 12:40:40,752 - INFO - millennium-development-goals-mdgs-indicators-for-nigeria-39.csv uploaded
+2026-08-15 12:45:01,295 - INFO - international-health-regulations-2005-monitoring-framework-indicators-for-nigeria-23.csv uploaded
+2026-08-15 12:46:32,677 - INFO - hiv-aids-and-other-stis-indicators-for-nigeria-44.csv uploaded
+2026-08-15 12:49:37,327 - INFO - health-systems-indicators-for-nigeria-7.csv uploaded
+2026-08-15 12:57:34,896 - INFO - health-workforce-indicators-for-nigeria-25.csv uploaded
+2026-08-15 13:06:13,030 - INFO - child-health-indicators-for-nigeria-26.csv uploaded
